@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RestAssuredAssesment">
+    <listeners>
+        <listener class-name="com.listners.ListenersTestNG"></listener>
+    </listeners>
+    <test name="ApiTests">
+        <classes>
+            <class name="com.testcases.tc_01_get_users"></class>
+            <class name="com.testcases.tc_02_create_user"></class>
+        </classes>
+    </test>
+</suite>
